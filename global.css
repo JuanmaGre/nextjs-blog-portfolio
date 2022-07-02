@@ -1,0 +1,98 @@
+html,
+body,
+body > div:first-child,
+div#__next,
+div#__next > div {
+    height: 100%;
+}
+
+.main {
+    background-color: white;
+    padding: 2px;
+    margin-left: 107px;
+    margin-right: 107px;
+}
+
+.blog{
+    background-color: white;
+    padding: 2px;
+    margin-left: 75px;
+    align-content: center;
+}
+
+.img{
+    width: 100%;
+    border-radius: 180px;
+}
+
+.row {
+    height: 50%;
+    overflow: hidden;
+}
+
+.row2 {
+    height: 50%;
+    overflow: hidden;
+    color: white;
+    letter-spacing: 1px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+}
+
+.row .card-img-top {
+    transform: scale(1);
+    transition: all 0.5s ease-in-out;
+}
+
+.row .card-img-top:hover {
+    cursor: pointer;
+    transform: scale(1.5);
+}
+
+.title{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 1px;
+}
+
+.title2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    letter-spacing: 5px;
+    color: white;
+}
+
+.title3{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    color: white;
+}
+
+.progress {
+    background-color: white;
+}
+
+.progress-bar{
+    background-color: #3498DB;
+}
+
+.btn{
+    padding: 10px;
+    border: white solid;
+    background-color: gray;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+}
+
+.btn:hover{
+    border: black solid;
+    background-color: whitesmoke;
+    color: black;
+}
+
+#nprogress .bar {
+    background: #ff5367 !important;
+}
+
+#nprogress .spinner-icon {
+    border-top-color: #ffbb00;
+    border-left-color: #ffbb00;
+}
