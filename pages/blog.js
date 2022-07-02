@@ -1,10 +1,9 @@
 import Layout from "../components/Layout";
-import Link from 'next/link';
 import { posts } from "../profile";
 
 
 const PostCard = ({ post }) => (
-    <div className="blog col-md-3">
+    <div className="blog col-md-4">
         <div className="card">
             <div className="overflow">
                 <img src={post.imageURL} className="card-img-top" alt=""/>

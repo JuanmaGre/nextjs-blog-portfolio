@@ -124,7 +124,17 @@ export const posts = [
         title: "Vue",
         content: "VueJS is an open source progressive JavaScript framework used to develop interactive web interfaces. It is one of the famous frameworks used to simplify web development. VueJS focusses on the view layer. It can be easily integrated into big projects for front-end development without any issues.",
         imageURL: 'https://blog.webtraining.zone/wp-content/uploads/2018/01/vue-newsletter.png'
-    }
+    },
+    {
+        title: "React Native",
+        content: "React Native is an open-source UI software framework created by Meta Platforms, Inc. It is used to develop applications for Android, Android TV, iOS, macOS, tvOS, Web, Windows and UWP by enabling developers to use the React framework along with native platform capabilities.",
+        imageURL: 'https://crowdbotics.ghost.io/content/images/2020/08/React-Native-Featured-Image.png'
+    },
+    {
+        title: "NextJS",
+        content: "Next. js is a React framework that enables several extra features, including server-side rendering and generating static websites. React is a JavaScript library that is traditionally used to build web applications rendered in the client's browser with JavaScript.",
+        imageURL: 'https://images.ctfassets.net/23aumh6u8s0i/3jY4eCzPqbJ8bP7RX8SnTe/d6252025eff38698a5ed4ffdbd02f580/nextjs_hero'
+    },
 ]
 
 export const contactData = [
