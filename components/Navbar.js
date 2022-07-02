@@ -30,7 +30,7 @@ const Navbar = () => {
                 </li>
                 <li className="nav-item">
                     <Link href="/socialNet">
-                        <a className="nav-link">
+                        <a className="nav-link active" aria-current="page">
                             Social Network
                         </a>
                     </Link>
