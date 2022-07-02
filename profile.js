@@ -20,6 +20,10 @@ export const skills = [
         percentage: 70
     },
     {
+        skill: 'Next.js',
+        percentage: 80
+    },
+    {
         skill: 'React Native',
         percentage: 40
     },
@@ -137,5 +141,15 @@ export const contactData = [
 export const me = [
     {
         description: "I am a friendly, determined, enthusiastic person who loves challenges and learning new skills all the time. I find it motivating to be able to work with other people, to get to know different cultures and their ways of relating at work. It is a dream to be able to be a digital nomad. Professionally I have advanced in aspects of soft skills, teamwork, organization and goal-oriented work thanks to my past experiences. Strengths: Adaptability. Teamwork. Problem solving. I manage stress well. I ask for help when I can't figure something out. I get very involved in projects."
+    }
+]
+
+export const githubData = [
+    {
+        img: "logo.JPG",
+        name: "Juan Manuel Grehuello",
+        degree: "Full Stack Developer",
+        linkURL: 'https://www.linkedin.com/in/juanmanuelgrehuello-dev/',
+        githURL: 'https://github.com/JuanmaGre'
     }
 ]
