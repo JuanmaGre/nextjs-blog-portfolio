@@ -7,7 +7,7 @@ const Navbar = () => {
             <Link href="/">
                 <a className="navbar-brand">Portfolio</a>
             </Link>
-            <button
+            {/* <button
                 className="navbar-toggler"
                 type="button"
                 data-bs-toggle="collapse"
@@ -17,7 +17,7 @@ const Navbar = () => {
                 aria-label="Toggle navigation"
             >
                 <span className="navbar-toggler-icon"></span>
-            </button>
+            </button> */}
         
         {/* <div className="collapse navbar-collapse" id="navbarNav"> */}
             <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
