@@ -2,7 +2,7 @@ import Layout from "../components/Layout";
 import Link from "next/link";
 
 const custom404 = () => (
-    <Layout title="Page Not Found">
+    <Layout title="Page Not Found" className="text-center">
         <div className="text-center">
             <h1 className="display-1">
                 404
