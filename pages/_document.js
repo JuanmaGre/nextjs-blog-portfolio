@@ -5,7 +5,7 @@ class MyDocument extends Document {
         return (
         <Html>
             <Head>
-                <link ref='icon' href='logo.ico'/>
+                <link rel='icon' href='logo.ico'/>
                 <title>JM Grehuello Portfolio</title>
                 <meta name='description' content='Juan Manuel Grehuello - Full Stack Developer - Portfolio Website'/>
                 <link rel='stylesheet' href="https://cdnjs.cloudflare.com/ajax/libs/nprogress/0.2.0/nprogress.css" />
