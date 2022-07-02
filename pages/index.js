@@ -6,7 +6,7 @@ import { skills , experiences , projects , me } from "../profile";
 const index = () => (
     <Layout>
     {/* header card */}
-    <header className="row">
+    <header className="rowHeader">
         <div className="col-md-12">
             <div className="card card-body bg-dark text-light animate__animated animate__fadeIn">
                 <div className="row">
@@ -32,8 +32,8 @@ const index = () => (
     </header>
 
     {/* Second Section */}
-    <section className="row py-2">
-        <div className="col-md-4">
+    <section className="row no-gutters py-2">
+        <div className="rowSkills col-md-3 offset-md-1">
             <div className="card bg-light text-dark animate__animated animate__fadeInLeft">
 
                 {/* Skills Section */}
@@ -61,7 +61,7 @@ const index = () => (
             </div>
         </div>
 
-        <div className="col-md-8">
+        <div className="col-md-7">
             <div className="card bg-light text-dark animate__animated animate__fadeInRight">
                 
                 {/* Experience Section */}
@@ -91,7 +91,7 @@ const index = () => (
 
     {/* Portofolio Section */}
     <section>
-        <div className="row">
+        <div className="rowProjects">
             <div className="col-md-12">
                 <div className="card card-body bg-dark">
                     <div className="row">

@@ -9,8 +9,6 @@ div#__next > div {
 .main {
     background-color: white;
     padding: 2px;
-    margin-left: 107px;
-    margin-right: 107px;
 }
 
 .blog{
@@ -28,6 +26,26 @@ div#__next > div {
 .row {
     height: 50%;
     overflow: hidden;
+}
+
+.rowHeader {
+    margin-left: 97px;
+    margin-right: 90px;
+}
+
+.no-gutters {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.rowSkills{
+    margin-right: 7px;
+}
+
+.rowProjects {
+    margin-left: 97px;
+    margin-right: 90px;;
+    margin-bottom: 10px;
 }
 
 .row2 {
