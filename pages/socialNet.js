@@ -1,6 +1,5 @@
 import Layout from "../components/Layout";
 import { githubData } from "../profile";
-// import Error from './_error';
 
 
 const SocialMediaCard = ({ user }) => (

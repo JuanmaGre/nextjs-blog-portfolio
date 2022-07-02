@@ -113,14 +113,14 @@ const index = () => (
                                         
                                         <div className="card-body text-dark">
                                             <p>{description}</p>
-                                            <a href="#!" className="p-1 btn-outline-dark">Know more</a>
+                                            <a href="/projects" className="p-1 btn-outline-dark">Know more</a>
                                         </div>
                                 </div>
                             </div>
                         ))}
                             <div className="col-md-12">
                                 <div className="text-center">
-                                    <Link href="/portfolio">
+                                    <Link href="/projects">
                                         <a className="btn">More projects</a>
                                     </Link>
                                 </div>

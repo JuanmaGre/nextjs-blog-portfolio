@@ -8,7 +8,7 @@ const custom404 = () => (
                 404
             </h1>
                 <p>
-                    This page doesn't exists. Please, return to{" "} 
+                    Developing this page at the moment. It will be online soon. Please, return to{" "} 
                 <Link href="/">
                 <a>
                     Home

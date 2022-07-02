@@ -12,9 +12,9 @@ const PostCard = ({ post }) => (
             <div className="card-body">
                 <h1>{post.title}</h1>
                 <p>{post.content}</p>
-                <Link href={`/post?title=${post.title}`} as={`/post/${post.title}`}>
+                {/* <Link href={`/post?title=${post.title}`} as={`/post/${post.title}`}>
                     <button className="btn btn-outline-light p-1">Read</button>
-                </Link>
+                </Link> */}
             </div>
         </div>
     </div>
