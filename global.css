@@ -13,9 +13,8 @@ div#__next > div {
 
 .blog{
     background-color: white;
-    padding: 2px;
-    margin-left: 75px;
-    align-content: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
 }
 
 .img{

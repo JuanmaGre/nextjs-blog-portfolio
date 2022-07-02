@@ -113,7 +113,7 @@ export const posts = [
     {
         title: "React",
         content: "React is a free and open-source front-end JavaScript library for building user interfaces based on UI components. It is maintained by Meta (formerly Facebook) and a community of individual developers and companies.",
-        imageURL: 'https://www.arsys.es/blog/file/uploads/2017/04/React.jpg'
+        imageURL: 'https://sigdeletras.com/images/blog/202004_react_leaflet/react.png'
     },
     {
         title: "Angular",
