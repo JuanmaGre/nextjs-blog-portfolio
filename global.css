@@ -65,8 +65,9 @@ div#__next > div {
     transform: scale(1.5);
 }
 
-.rowBlog .card-img-top:hover {
-    cursor: pointer;
+.row .card-img-center {
+    overflow: hidden;
+    width: 100%;
 }
 
 .rowCertification{

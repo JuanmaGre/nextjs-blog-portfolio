@@ -3,10 +3,10 @@ import { posts } from "../profile";
 
 
 const PostCard = ({ post }) => (
-    <div className="blog col-md-4">
+    <div className="row col-md-4 p-4">
         <div className="card">
             <div className="overflow">
-                <img src={post.imageURL} className="card-img-top" alt=""/>
+                <img src={post.imageURL} className="card-img-center" alt=""/>
             </div>
             <div className="card-body">
                 <h1>{post.title}</h1>
@@ -22,9 +22,9 @@ const PostCard = ({ post }) => (
 
 const blog = () => {
     return (
-        <Layout footer={false}>
+        <Layout>
             <h1 className="title2 text-center text-dark">My Blog</h1>
-            <div className="rowBlog text-light">
+            <div className="row justify-content-md-center">
                 { posts.map( (post , i) => (
                     <PostCard post={post} key={i} />
                 ))}
