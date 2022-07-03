@@ -65,6 +65,10 @@ div#__next > div {
     transform: scale(1.5);
 }
 
+.rowBlog .card-img-top:hover {
+    cursor: pointer;
+}
+
 .title{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     letter-spacing: 1px;

@@ -24,7 +24,7 @@ const blog = () => {
     return (
         <Layout footer={false}>
             <h1 className="title2 text-center text-dark">My Blog</h1>
-            <div className="row text-light">
+            <div className="rowBlog text-light">
                 { posts.map( (post , i) => (
                     <PostCard post={post} key={i} />
                 ))}
