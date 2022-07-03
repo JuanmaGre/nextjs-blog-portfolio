@@ -169,3 +169,16 @@ export const githubData = [
         githURL: 'https://github.com/JuanmaGre'
     }
 ]
+
+export const certificates = [
+    {
+        degree: "Full Stack Developer",
+        givenBy: "Henry Bootcamp",
+        img: "HenryCt.jpg"
+    },
+    {
+        degree: "English Level",
+        givenBy: "EF SET",
+        img: "EnglishCt.jpg"
+    }
+]

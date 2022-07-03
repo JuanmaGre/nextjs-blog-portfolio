@@ -29,6 +29,13 @@ const Navbar = () => {
                     </Link>
                 </li>
                 <li className="nav-item">
+                    <Link href="/certification">
+                        <a className="nav-link active" aria-current="page">
+                            Certification
+                        </a>
+                    </Link>
+                </li>
+                <li className="nav-item">
                     <Link href="/socialNet">
                         <a className="nav-link active" aria-current="page">
                             Social Network
