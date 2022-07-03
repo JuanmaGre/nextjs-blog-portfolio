@@ -66,20 +66,20 @@ const index = () => (
                 
                 {/* Experience Section */}
                 <div className="card-body">
+                    <h1 className="title">About me</h1>
+                    <ul>
+                        {me.map(( {description} , index) => (
+                            <li key={index}>
+                                <p>{description}</p>
+                            </li>
+                        ))}
+                    </ul>
                     <h1 className="title">Experience</h1>
                     <ul>
                     {experiences.map( ({ title, description, from, to } , index) => (
                         <li key={index}>
                             <h3 className="text-secondary">{title}</h3>
                             <h5>{from} {to ? `-${to}` : "- current"}</h5>
-                            <p>{description}</p>
-                        </li>
-                    ))}
-                    </ul>
-                    <h1 className="title">About me</h1>
-                    <ul>
-                    {me.map(( {description} , index) => (
-                        <li key={index}>
                             <p>{description}</p>
                         </li>
                     ))}
