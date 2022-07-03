@@ -3,14 +3,15 @@ import { certificates } from "../profile";
 
 
 const CertificationCard = ({ certification }) => (
-    <div className="blog col-md-4">
-        <div className="card">
+    <div className="blog col-md-12">
+        <div className="card col-md-4 offset-md-4">
             <div className="overflow">
-                <img src={certification.img} className="card-img-top" alt=""/>
+                <img src={certification.img} className="card-img-center" alt=""/>
             </div>
-            <div className="card-body">
+            <div className="titleCer card-body">
                 <h1>{certification.name}</h1>
-                <p>{certification.givenBy}</p>
+                <h4>{certification.givenBy}</h4>
+                <h6>{certification.degree}</h6>
             </div>
         </div>
     </div>
@@ -19,9 +20,9 @@ const CertificationCard = ({ certification }) => (
 
 const certificate = () => {
     return (
-        <Layout footer={false}>
-            <h1 className="title2 text-center text-dark">My Blog</h1>
-            <div className="rowBlog text-light">
+        <Layout>
+            <h1 className="title2 text-center text-dark">Certifications</h1>
+            <div className="rowCertification text-light">
                 { certificates.map( (certification , i) => (
                     <CertificationCard certification={certification} key={i} />
                 ))}

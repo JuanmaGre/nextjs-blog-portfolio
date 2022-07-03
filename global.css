@@ -69,6 +69,30 @@ div#__next > div {
     cursor: pointer;
 }
 
+.rowCertification{
+    margin-left: 0px;
+    margin-right: 0px;   
+}
+
+.titleCer{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    font-size: x-large;
+    color: white;
+}
+
+.rowCertification .card-img-center {
+    margin-top: 10px;
+    width: 100%;
+    transform: scale(1);
+    transition: all 0.8s ease-in-out;
+}
+
+.rowCertification .card-img-center:hover {
+    cursor: pointer;
+    transform: scale(1.5);
+}
+
 .title{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     letter-spacing: 1px;
