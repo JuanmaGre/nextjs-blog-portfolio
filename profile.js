@@ -84,7 +84,7 @@ export const projects = [
     {
         name: "Portfolio",
         description: "Development of a personal portfolio using NextJs as main framework. All data comes from destructuring in each component. I used Bootstrap-5 and CSS for styles. The page contains my job experience, my skills and links to my contact data, linkedin and github. ",
-        image: "portfo-jmg.jpg",
+        image: "portfo-jmg.png",
         from: "June 2022",
         to: "",
         mainURL: 'https://jmg-portfolio-two.vercel.app/'
