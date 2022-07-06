@@ -24,6 +24,10 @@ export const skills = [
         percentage: 80
     },
     {
+        skill: 'NextAuth',
+        percentage: 80
+    },
+    {
         skill: 'React Native',
         percentage: 40
     },
@@ -32,7 +36,7 @@ export const skills = [
         percentage: 80
     },
     {
-        skill: 'Redux',
+        skill: 'Redux & Recoil',
         percentage: 90
     },
     {
@@ -46,6 +50,14 @@ export const skills = [
     {
         skill: 'MongoDB',
         percentage: 90
+    },
+    {
+        skill: 'Firebase',
+        percentage: 70
+    },
+    {
+        skill: 'Tailwind CSS',
+        percentage: 65
     },
 ]
 
@@ -89,14 +101,14 @@ export const projects = [
         to: "",
         mainURL: 'https://jmg-portfolio-two.vercel.app/'
     },
-    // {
-    //     name: "Henry Shoes",
-    //     description: "Development of an E-COMMERCE of sneakers using stock of products, shopping cart through a LocalStorage with payment gateway integration with Stripe. The database was made with Mongo and each user logs into the page through Auth0 authentication.",
-    //     image: "home 1.jpg",
-    //     from: "February 2022",
-    //     to: "March 2022",
-    //     mainURL: '/projects'
-    // },
+    {
+        name: "Twitter Clone",
+        description: "Twitter clone using NextJs as main framework and Firebase to manage de database. User authentications at login are with NextAuth. I used Recoil as state management and TailwindCSS for the styles. You can post with images and emojis. Also, comment on other posts.",
+        image: "twitter.jpg",
+        from: "July 2022",
+        to: "",
+        mainURL: 'https://twitter-jmg.vercel.app/'
+    },
     // {
     //     name: "Pretty Dogs by Henry",
     //     description: "Development of a SPA (Single Page Application) using React for the Front End and Redux as state management. The SPA obtains data from an API (through a Back End developed in Node.JS using Express), and also from a database managed with PostgreSQL.",
@@ -156,7 +168,7 @@ export const contactData = [
 
 export const me = [
     {
-        description: "I am a friendly, determined, enthusiastic person who loves challenges and learning new skills all the time. I find it motivating to be able to work with other people, to get to know different cultures and their ways of relating at work. It is a dream to be able to be a digital nomad. Professionally I have advanced in aspects of soft skills, teamwork, organization and goal-oriented work thanks to my past experiences. Strengths: Adaptability. Teamwork. Problem solving. I manage stress well. I ask for help when I can't figure something out. I get very involved in projects."
+        description: "I am a friendly, determined, enthusiastic person who loves challenges and learning new skills all the time. I find it motivating to be able to work with other people, to get to know different cultures and their ways of relating at work. It is a dream to be able to be a digital nomad. Professionally I have advanced in aspects of soft skills, teamwork, organization and goal-oriented work thanks to my past experiences. I think you should hire me because of my entrepreneurial spirit, which makes me always want to be in constant evolution. Also because my ability to quickly adapt to environments and functions completely different from the ones I'm used to. Strengths: Adaptability. Teamwork. Problem solving. I manage stress well. I ask for help when I can't figure something out. I get very involved in projects."
     }
 ]
 
