@@ -64,7 +64,7 @@ export const skills = [
 export const experiences = [
     {
         title: 'Banking/Financial Activity - Naranja X',
-        description: ["Sales","High cash flow collection","Attention and resolution of claims", "Informative and sales calls", "Customer Support"],
+        description: "Sales. High cash flow collection. Attention and resolution of claims. Informative and sales calls. Customer Support",
         from: 'May 2021',
         to: 'October 2021'
     },
