@@ -29,7 +29,7 @@ const SocialMediaCard = ({ user }) => (
 
 const socialMedia = () => {
     return (
-    <Layout>
+    <Layout footer={false}>
         <h1 className="title2 text-center text-dark">My Works:</h1>
         <div className="row2">
             { githubData.map( ( user , i) => (
