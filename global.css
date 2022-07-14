@@ -27,9 +27,11 @@ div#__next > div {
     overflow: hidden;
 }
 
-.rowHeader {
-    margin-left: 97px;
-    margin-right: 90px;
+@media (min-width: 700px){
+    .rowHeader {
+        margin-left: 97px;
+        margin-right: 90px;
+    }
 }
 
 .no-gutters {
@@ -41,10 +43,12 @@ div#__next > div {
     margin-right: 7px;
 }
 
-.rowProjects {
-    margin-left: 97px;
-    margin-right: 90px;;
-    margin-bottom: 10px;
+@media (min-width: 700px){
+    .rowProjects {
+        margin-left: 97px;
+        margin-right: 90px;;
+        margin-bottom: 10px;
+    }
 }
 
 .row2 {
