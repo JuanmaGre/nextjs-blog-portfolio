@@ -109,14 +109,14 @@ export const projects = [
         to: "",
         mainURL: 'https://twitter-jmg.vercel.app/'
     },
-    // {
-    //     name: "Pretty Dogs by Henry",
-    //     description: "Development of a SPA (Single Page Application) using React for the Front End and Redux as state management. The SPA obtains data from an API (through a Back End developed in Node.JS using Express), and also from a database managed with PostgreSQL.",
-    //     image: "landing.jpg",
-    //     from: "January 2022",
-    //     to: "February 2022",
-    //     mainURL: '/projects'
-    // },
+    {
+        name: "Netflix Clone",
+        description: "Netflix clone using NextJs with powerful user authentication, subscriptions to different plans, payments with stripe, completely dynamic and responsive for all devices. You can also play real movie's trailers and add movies to your list",
+        image: "netflix.jpg",
+        from: "July 2022",
+        to: "",
+        mainURL: 'https://netflix-jmg-clone.vercel.app/'
+    },
     // {
     //     name: "Henry Shoes",
     //     description: "Development of an E-COMMERCE of sneakers using stock of products, shopping cart through a LocalStorage with payment gateway integration with Stripe. The database was made with Mongo and each user logs into the page through Auth0 authentication.",
