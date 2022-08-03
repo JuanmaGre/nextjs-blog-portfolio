@@ -113,7 +113,11 @@ const index = () => (
                                         
                                         <div className="card-body text-dark">
                                             <p>{description}</p>
-                                            <a href={mainURL} className="p-1 btn-outline-dark">Go to Website</a>
+                                            <a
+                                                href={mainURL}
+                                                className="p-1 btn-outline-dark"
+                                                target="_blank"
+                                                >Go to Website</a>
                                         </div>
                                 </div>
                             </div>
