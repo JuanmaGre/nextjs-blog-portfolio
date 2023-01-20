@@ -63,6 +63,12 @@ export const skills = [
 
 export const experiences = [
     {
+        title: 'Wordpress/PHP Developer - Rêvus Store',
+        description: "Install and configure plugins. Speed Optimization. Backup. Elementor. Custom Login/Admin. Troubleshooting. Customization",
+        from: 'October 2022',
+        to: 'Currently'
+    },
+    {
         title: 'Banking/Financial Activity - Naranja X',
         description: "Sales. High cash flow collection. Attention and resolution of claims. Informative and sales calls. Customer Support",
         from: 'May 2021',
