@@ -91,6 +91,14 @@ export const experiences = [
 
 export const projects = [
     {
+        name: "Rêvus Store",
+        description: "Website maintenance. Creation and integration of new functions for customer users, vendors and administrators. Customization of fully responsive styles.",
+        image: "revus.png",
+        from: "October 2022",
+        to: "Currently",
+        mainURL: 'https://revus.store'
+    },
+    {
         name: "Pretty Dogs by Henry",
         description: "Development of a SPA (Single Page Application) using React for the Front End and Redux as state management. The SPA obtains data from an API (through a Back End developed in Node.JS using Express), and also from a database managed with PostgreSQL.",
         image: "landing.jpg",
