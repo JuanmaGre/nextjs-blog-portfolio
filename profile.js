@@ -28,11 +28,7 @@ export const skills = [
         percentage: 70
     },
     {
-        skill: 'Next.js',
-        percentage: 80
-    },
-    {
-        skill: 'NextAuth',
+        skill: 'Next.js with NextAuth',
         percentage: 80
     },
     {
@@ -92,7 +88,7 @@ export const experiences = [
 export const projects = [
     {
         name: "Rêvus Store",
-        description: "Website maintenance. Creation and integration of new functions for customer users, vendors and administrators. Customization of fully responsive styles.",
+        description: "Website maintenance. Creation of new functions for customer users, vendors and administrators. Plugins installation and integration. Customization of fully responsive styles. Woocommerce. WCFM Multivendor.",
         image: "revus.png",
         from: "October 2022",
         to: "Currently",
