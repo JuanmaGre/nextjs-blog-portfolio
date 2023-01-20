@@ -79,7 +79,7 @@ const index = () => (
                     {experiences.map( ({ title, description, from, to } , index) => (
                         <li key={index}>
                             <h3 className="text-secondary">{title}</h3>
-                            <h5>{from} {to ? `-${to}` : "- current"}</h5>
+                            <h5>{from} {to ? `- ${to}` : "- current"}</h5>
                             <p>{description}</p>
                         </li>
                     ))}

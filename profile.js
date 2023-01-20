@@ -66,7 +66,6 @@ export const experiences = [
         title: 'Wordpress/PHP Developer - Rêvus Store',
         description: "Install and configure plugins. Speed Optimization. Backup. Elementor. Custom Login/Admin. Troubleshooting. Customization",
         from: 'October 2022',
-        to: 'Currently'
     },
     {
         title: 'Banking/Financial Activity - Naranja X',
