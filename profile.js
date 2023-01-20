@@ -189,6 +189,11 @@ export const certificates = [
         img: "HenryCt.jpg"
     },
     {
+        degree: "Wordpress",
+        givenBy: "Coderhouse",
+        img: "coder.png"
+    },
+    {
         degree: "English Level",
         givenBy: "EF SET",
         img: "EnglishCt.jpg"
