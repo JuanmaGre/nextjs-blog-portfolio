@@ -1,7 +1,15 @@
 export const skills = [
     {
         skill: 'Javascript',
-        percentage: 65
+        percentage: 70
+    },
+    {
+        skill: 'PHP',
+        percentage: 70
+    },
+    {
+        skill: 'Wordpress',
+        percentage: 90
     },
     {
         skill: 'Typescript',
