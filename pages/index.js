@@ -99,7 +99,7 @@ const index = () => (
                             <h1 className="title2">Projects</h1>
                         </div>
                             
-                        {projects.map( ({name , description , image , mainURL } , i) => (
+                        {projects.slice(-6).map( ({name , description , image , mainURL } , i) => (
                             <div className="col-md-4 py-3" key={i}>
                                 <div className="card h-80 bg-light text-dark">
                                     <div className="row">

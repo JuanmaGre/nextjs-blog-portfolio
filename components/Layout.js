@@ -42,8 +42,8 @@ const Layout = ({ children , title ,  footer = true, dark = false }) => {
             footer && (
                 <footer className="bg-dark text-light text-center">
                     <div className="container p-1">
-                        <h6>&copy; Juan M. Grehuello Portfolio</h6>
-                        <p>2022. All rights reserved</p>
+                        <h6>&copy; Juan Manuel Grehuello Portfolio</h6>
+                        <p>2023. All rights reserved</p>
                     </div>
                 </footer>
             )
