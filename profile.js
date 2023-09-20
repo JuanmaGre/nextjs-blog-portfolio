@@ -67,9 +67,21 @@ export const skills = [
 
 export const experiences = [
     {
+        title: 'Project Manager - Innova Developers',
+        description: "Generate project documentation (requirements, analysis,monitoring). Coordination with devs in charge of thefunctions to be developed. Monitoring project´smilestones in the development and implementationphases. Coordination of project status and progress withthe Team Leader.",
+        from: 'August 2023',
+    },
+    {
+        title: 'Wordpress/PHP Developer - Innova Developers',
+        description: "Install and configure plugins. Speed Optimization. Backup. Elementor. Custom Login/Admin. Troubleshooting. Customization",
+        from: 'April 2023',
+        to: 'July 2023'
+    },
+    {
         title: 'Wordpress/PHP Developer - Rêvus Store',
         description: "Install and configure plugins. Speed Optimization. Backup. Elementor. Custom Login/Admin. Troubleshooting. Customization",
         from: 'October 2022',
+        to: 'September 2023'
     },
     {
         title: 'Banking/Financial Activity - Naranja X',
@@ -87,11 +99,19 @@ export const experiences = [
 
 export const projects = [
     {
+        name: "Innova Developers",
+        description: "Website development from scratch. Creation of new functions for customer users, vendors and administrators. Plugins installation and integration. Customization of fully responsive styles. Woocommerce. WCFM Multivendor.",
+        image: "innova.png",
+        from: "April 2023",
+        to: "July 2023",
+        mainURL: 'https://innovadevelopers.com'
+    },
+    {
         name: "Rêvus Store",
         description: "Website maintenance. Creation of new functions for customer users, vendors and administrators. Plugins installation and integration. Customization of fully responsive styles. Woocommerce. WCFM Multivendor.",
         image: "revus.png",
         from: "October 2022",
-        to: "Currently",
+        to: "September 2023",
         mainURL: 'https://revus.store'
     },
     {
