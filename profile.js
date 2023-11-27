@@ -106,14 +106,14 @@ export const projects = [
         to: "July 2023",
         mainURL: 'https://innovadevelopers.com'
     },
-    {
+    /*{
         name: "Rêvus Store",
         description: "Website maintenance. Creation of new functions for customer users, vendors and administrators. Plugins installation and integration. Customization of fully responsive styles. Woocommerce. WCFM Multivendor.",
         image: "revus.png",
         from: "October 2022",
         to: "September 2023",
         mainURL: 'https://revus.store'
-    },
+    },*/
     {
         name: "Henry Shoes",
         description: "Development of an E-COMMERCE of sneakers using stock of products, shopping cart through a LocalStorage with payment gateway integration with Stripe. The database was made with Mongo and each user logs into the page through Auth0 authentication.",
