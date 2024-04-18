@@ -5,7 +5,7 @@ export const skills = [
     },
     {
         skill: 'PHP',
-        percentage: 70
+        percentage: 90
     },
     {
         skill: 'Wordpress',
@@ -67,15 +67,15 @@ export const skills = [
 
 export const experiences = [
     {
-        title: 'Project Manager - Innova Developers',
-        description: "Generate project documentation (requirements, analysis,monitoring). Coordination with devs in charge of thefunctions to be developed. Monitoring project´smilestones in the development and implementationphases. Coordination of project status and progress withthe Team Leader.",
-        from: 'August 2023',
-    },
-    {
         title: 'Wordpress/PHP Developer - Innova Developers',
         description: "Install and configure plugins. Speed Optimization. Backup. Elementor. Custom Login/Admin. Troubleshooting. Customization",
         from: 'April 2023',
-        to: 'July 2023'
+    },
+    {
+        title: 'Project Manager - Innova Developers',
+        description: "Generate project documentation (requirements, analysis,monitoring). Coordination with devs in charge of thefunctions to be developed. Monitoring project´smilestones in the development and implementationphases. Coordination of project status and progress withthe Team Leader.",
+        from: 'August 2023',
+        to: 'January 2024'
     },
     {
         title: 'Wordpress/PHP Developer - Rêvus Store',
@@ -98,6 +98,22 @@ export const experiences = [
 ]
 
 export const projects = [
+    {
+        name: "CondoSmart",
+        description: "Project management: Generate project documentation (requirements, analysis,monitoring). Coordination with devs in charge of the functions to be developed. Monitoring project´s milestones in the development and implementation phases. Coordination of project status and progress with Team Leader.",
+        image: "condo.png",
+        from: "August 2023",
+        to: "January 2024",
+        mainURL: 'https://app.condosmart.me'
+    },
+    {
+        name: "Alma de Manantiales",
+        description: "Website development and redisgn. New functions for contact form. Plugins installation and integration. Customization of fully responsive styles. Elementor and pure CSS3",
+        image: "almademanantiales.jpg",
+        from: "August 2023",
+        to: "September 2023",
+        mainURL: 'https://almademanantiales.com'
+    },
     {
         name: "Innova Developers",
         description: "Website development from scratch. Creation of new functions for customer users, vendors and administrators. Plugins installation and integration. Customization of fully responsive styles. Woocommerce. WCFM Multivendor.",
@@ -138,7 +154,7 @@ export const projects = [
         to: "",
         mainURL: 'https://jmg-portfolio-two.vercel.app/'
     },
-    {
+    /*{
         name: "Twitter Clone",
         description: "Twitter clone using NextJs as main framework and Firebase to manage de database. User authentications at login are with NextAuth. I used Recoil as state management and TailwindCSS for the styles. You can post with images and emojis. Also, comment on other posts.",
         image: "twitter.jpg",
@@ -153,15 +169,7 @@ export const projects = [
         from: "January 2022",
         to: "February 2022",
         mainURL: '/projects'
-    },
-    // {
-    //     name: "Henry Shoes",
-    //     description: "Development of an E-COMMERCE of sneakers using stock of products, shopping cart through a LocalStorage with payment gateway integration with Stripe. The database was made with Mongo and each user logs into the page through Auth0 authentication.",
-    //     image: "home 1.jpg",
-    //     from: "February 2022",
-    //     to: "March 2022",
-    //     mainURL: '/projects'
-    // },
+    },*/
 ]
 
 export const posts = [
