@@ -67,37 +67,64 @@ export const skills = [
 
 export const experiences = [
     {
-        title: 'Wordpress/PHP Developer - Innova Developers',
-        description: "Install and configure plugins. Speed Optimization. Backup. Elementor. Custom Login/Admin. Troubleshooting. Customization",
-        from: 'April 2023',
+        title: 'PHP/Wordpress Developer - Unisport',
+        description: "Design, implementation and maintenance of websites, using the PHP creation or scripting language, content creation and digital media management tools. HTML and Javascript programming. Web optimization to provide maximum speed and scalability. Refactoring of components and 50% reduction in loading time.",
+        from: 'May 2024 - PROJECT',
+        to: 'June 2024'
+    },
+    {
+        title: 'PHP/Wordpress Developer - Grupo Emac',
+        description: "Design, implementation and maintenance of websites, using the PHP creation or scripting language, content creation and digital media management tools. Experience in the use of different languages such as HTML, CSS and JS Deliver functional, usable Landing Pages with a loading speed of less than 2s.",
+        from: 'February 2024 - CONTRACTOR',
+    },
+    {
+        title: 'PHP/Wordpress Developer - Innova Developers',
+        description: "Project development in PHP-MySQL. Front-end design in HTML5, JQuery, Bootstrap and CSS3. Development of applications in JavaScript and HTML5 for mobiles. Development of interactive applications in Ajax. Planning tasks and meeting objectives",
+        from: 'April 2023 - CONTRACTOR',
     },
     {
         title: 'Project Manager - Innova Developers',
         description: "Generate project documentation (requirements, analysis,monitoring). Coordination with devs in charge of thefunctions to be developed. Monitoring project´smilestones in the development and implementationphases. Coordination of project status and progress withthe Team Leader.",
         from: 'August 2023',
-        to: 'January 2024'
+        to: 'January 2024 - PROJECT'
     },
     {
         title: 'Wordpress/PHP Developer - Rêvus Store',
         description: "Install and configure plugins. Speed Optimization. Backup. Elementor. Custom Login/Admin. Troubleshooting. Customization",
         from: 'October 2022',
-        to: 'September 2023'
+        to: 'September 2023 - CONTRACTOR'
     },
     {
         title: 'Banking/Financial Activity - Naranja X',
         description: "Sales. High cash flow collection. Attention and resolution of claims. Informative and sales calls. Customer Support",
         from: 'May 2021',
-        to: 'October 2021'
+        to: 'October 2021 - PART TIME'
     },
     {
         title: 'Digital Marketing - Entrepreneurship',
         description: "Design and implementation of face-to-face and virtual training activities. Commercial Communication Techniques. Introduction to the entrepreneur model, with a focus on young people. Marketing applied to the development of online consumption. Team leadership: personal and group coaching, planning and qualitative and quantitative monitoring of results.",
         from: 'July 2020',
-        to: 'April 2021'
+        to: 'April 2021 - FULL TIME'
     },
 ]
 
 export const projects = [
+    {
+        name: "Baoli UY",
+        description: "Web development from scratch: development and redisgn. New functions for landing page using JS to access product´s details. Plugins installation and integration. Customization of fully responsive styles. Elementor and pure CSS3",
+        image: "baoli-uy.png",
+        from: "April 2024",
+        to: "May 2024",
+        mainURL: 'https://baoli.uy/'
+    },
+    {
+        name: "Grupo Emac",
+        description: "Website migration: Google ads added and spotted on Whatsapp button. Plugins installation and integration. Customization of fully responsive styles. DIVI and pure CSS3",
+        image: "emacsa.png",
+        from: "February 2024",
+        to: "April 2024",
+        mainURL: 'https://emacsa.com.ar/'
+    },
     {
         name: "CondoSmart",
         description: "Project management: Generate project documentation (requirements, analysis,monitoring). Coordination with devs in charge of the functions to be developed. Monitoring project´s milestones in the development and implementation phases. Coordination of project status and progress with Team Leader.",
