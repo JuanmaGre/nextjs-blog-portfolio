@@ -67,7 +67,7 @@ const index = () => (
                 {/* Experience Section */}
                 <div className="card-body">
                     <h1 className="title">About me</h1>
-                    <ul>
+                    <ul className="no-lst-style">
                         {me.map(( {description} , index) => (
                             <li key={index}>
                                 <p>{description}</p>
@@ -79,7 +79,7 @@ const index = () => (
                     {experiences.map( ({ title, description, from, to } , index) => (
                         <li key={index}>
                             <h3 className="text-secondary">{title}</h3>
-                            <h5>{from} {to ? `- ${to}` : "- current"}</h5>
+                            <h5>{from} {to ? `- ${to}` : "- Current"}</h5>
                             <p>{description}</p>
                         </li>
                     ))}
@@ -101,7 +101,7 @@ const index = () => (
                             
                         {projects.slice(0, 6).map(({name , description , image , mainURL } , i) => (
                             <div className="col-md-4 py-3" key={i}>
-                                <div className="card h-80 bg-light text-dark">
+                                <div className="card h-100 bg-light text-dark">
                                     <div className="row">
                                         <img 
                                             src={`/${image}`}
@@ -112,10 +112,10 @@ const index = () => (
                                         <h4 className="text-center">{name}</h4>
                                         
                                         <div className="card-body text-dark">
-                                            <p>{description}</p>
+                                            <p className="justify">{description}</p>
                                             <a
                                                 href={mainURL}
-                                                className="p-1 btn-outline-dark"
+                                                className="p-1 btn-outline-dark text-linked"
                                                 target="_blank"
                                                 >Go to Website</a>
                                         </div>

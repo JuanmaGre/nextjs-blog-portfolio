@@ -147,3 +147,14 @@ div#__next > div {
     border-top-color: #ffbb00;
     border-left-color: #ffbb00;
 }
+
+.no-lst-style {
+    list-style: none;
+    text-align: justify;
+}
+
+.text-linked {
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+}
