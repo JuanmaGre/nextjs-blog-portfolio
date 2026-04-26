@@ -6,12 +6,12 @@ import { Projects } from "@/components/sections/projects"
 
 export default function Home() {
   return (
-    <>
+    <div className="flex flex-col">
       <Hero />
       <About />
       <Skills />
       <Experience />
       <Projects limit={6} showViewAll />
-    </>
+    </div>
   )
 }
